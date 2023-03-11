@@ -1,0 +1,18 @@
+[
+    {
+        "name": "default",
+        "tickStep": 2,
+        "firstFrameIndex": 1
+    },
+    {
+        "name": "waving",
+        "loop": false,
+        "nextAnination": "wavingReverse"
+    },
+    {
+        "name": "wavingReverse",
+        "loop": false,
+        "flip": 1,
+        "nextAnination": "waving"
+    }
+]
